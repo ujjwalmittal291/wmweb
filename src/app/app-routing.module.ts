@@ -4,6 +4,8 @@ import { HomeComponent } from './component/home/home.component';
 import { LoginComponent } from './component/login/login.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { SignupComponent } from './component/signup/signup.component';
+import { OtpComponent } from './component/otp/otp.component';
+import { IdcreationComponent } from './component/idcreation/idcreation.component';
 
 
 const routes: Routes = [
@@ -22,6 +24,14 @@ const routes: Routes = [
   {
     path: 'signup',
     component: SignupComponent
+  },
+  {
+    path: 'otp',
+    component: OtpComponent
+  },
+  {
+    path: 'idcreation',
+    component: IdcreationComponent
   }
 ];
 

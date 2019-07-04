@@ -9,6 +9,7 @@ import { LoginComponent } from './component/login/login.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { SignupComponent } from './component/signup/signup.component';
 import { OtpComponent } from './component/otp/otp.component';
+import { IdcreationComponent } from './component/idcreation/idcreation.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { OtpComponent } from './component/otp/otp.component';
     LoginComponent,
     DashboardComponent,
     SignupComponent,
-    OtpComponent
+    OtpComponent,
+    IdcreationComponent
   ],
   imports: [
     BrowserModule,
