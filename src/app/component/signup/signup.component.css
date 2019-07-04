@@ -1,118 +1,124 @@
 .form-container {
-    width: 90%;
-    padding-top: 13.8%;
-    margin: auto;
-  }
-  
+  width: 90%;
+  padding-top: 13.8%;
+  margin: auto;
+}
+
+.login-image img {
+  width: 22%;
+  display: inline-block;
+  left: 10.5%;
+  position: absolute;
+}
+
+.login-form {
+  display: inline-block;
+  width: 30%;
+  position: absolute;
+  right: 9%;
+  margin-top: -4em;
+}
+
+h1 {
+  font-size: 2.1em;
+  font-weight: bolder;
+  width: 90%;
+  margin-bottom: 0.7em;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #cbcbcb;
+  margin-bottom: 0.8em;
+}
+
+#grytxt {
+  width: 80%;
+  font-size: 1em;
+  margin-bottom: 3.8em;
+}
+
+.input-field {
+  display: block;
+  height: 2.5em;
+  width: 78.5%;
+  font-size: 1.3em;
+  color: grey;
+  padding-left: 1em;
+  border: 1.5px solid #e9eef0;
+  margin-bottom: 0.8em;
+  border-radius: 3px;
+}
+
+.input-field::placeholder{
+  font-size: 0.9em; 
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.btn {
+  background-color: #ccd6dd;
+  color: white;
+  padding: 0.93em 1.25em;
+  border: none;
+  cursor: pointer;
+  width: 78.5%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+@media screen and (max-width : 992px) {
   .login-image img {
-    width: 22%;
-    display: inline-block;
-    left: 10.5%;
-    position: absolute;
-  }
-  
-  .login-form {
-    display: inline-block;
-    width: 30%;
-    position: absolute;
-    right: 9%;
-    margin-top: -4em;
-  }
-  
-  h2 {
-    font-weight: bolder;
-    width: 90%;
-    margin-bottom: 0.7em;
-  }
-  
-  p {
-    font-size: .99em;
-    color: #cbcbcb;
-    margin-bottom: 0.8em;
+    width: 70%;
+    position: relative;
   }
 
-  #grytxt{
-    width: 80%;
-    font-size: 0.8em;
-    margin-bottom: 3.8em;
-  }
-  
-  .input-field {
+  div {
     display: block;
-    height: 2.5em;
-    width: 80%;
-    font-size: 1.3em;
-    color: grey;
-    padding-left: 1em;
-    border: 1px solid #e9eef0;
-    margin-bottom: 0.8em;
-    border-radius: 3px;
   }
-  
-  .input-field:focus{
-    outline: none;
+
+  .login-form {
+    display: block;
+    position: relative;
+    width: 100%;
+    right: 0;
+    margin: auto;
+    overflow: visible;
   }
-  
+
+  h1 {
+    width: 90%;
+    margin: auto;
+    margin-top: 1em;
+  }
+
+  p {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+
+  .input-container {
+    margin: auto;
+    width: 100%;
+  }
+
+  .input-field {
+    margin: 0.5em;
+  }
+
   .btn {
-    background-color: #ccd6dd;
-    color: white;
-    padding: 0.93em 1.25em;
-    border: none;
-    cursor: pointer;
-    width: 80%;
-    opacity: 0.9;
+    margin-top: 1.3em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 54%;
   }
-  
-  .btn:hover {
-    opacity: 1;
-  }
-  
-  
-  @media screen and (max-width : 992px) {
-    .login-image img {
-      width: 70%;
-      position: relative;
-    }
-  
-    div {
-      display: block;
-    }
-  
-    .login-form {
-      display: block;
-      position: relative;
-      width: 100%;
-      right: 0;
-      margin: auto;
-      overflow: visible;
-    }
-  
-    h1 {
-      width: 90%;
-      margin: auto;
-      margin-top: 1em;
-    }
-  
-    p {
-      width: 90%;
-      margin: auto;
-      margin-bottom: 1em;
-    }
-  
-    .input-container {
-      margin: auto;
-      width: 100%;
-    }
-  
-    .input-field {
-      margin: 0.5em;
-    }
-  
-    .btn {
-      margin-top: 1.3em;
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-      width: 54%;
-    }
-  }
+}
