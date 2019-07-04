@@ -6,33 +6,17 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { SignupComponent } from './component/signup/signup.component';
 import { OtpComponent } from './component/otp/otp.component';
 import { IdcreationComponent } from './component/idcreation/idcreation.component';
+import { PincreationComponent } from './component/pincreation/pincreation.component';
 
 
 const routes: Routes = [
-  {
-    path: '', 
-    component: HomeComponent
-  },
-  {
-    path: 'login',
-    component: LoginComponent
-  },
-  {
-    path: 'dashboard',
-    component: DashboardComponent
-  },
-  {
-    path: 'signup',
-    component: SignupComponent
-  },
-  {
-    path: 'otp',
-    component: OtpComponent
-  },
-  {
-    path: 'idcreation',
-    component: IdcreationComponent
-  }
+  { path: '', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'dashboard', component: DashboardComponent },
+  { path: 'signup', component: SignupComponent },
+  { path: 'otp', component: OtpComponent },
+  { path: 'idcreation', component: IdcreationComponent },
+  { path: 'createpin', component: PincreationComponent }
 ];
 
 @NgModule({

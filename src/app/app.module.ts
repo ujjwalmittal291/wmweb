@@ -10,6 +10,7 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { SignupComponent } from './component/signup/signup.component';
 import { OtpComponent } from './component/otp/otp.component';
 import { IdcreationComponent } from './component/idcreation/idcreation.component';
+import { PincreationComponent } from './component/pincreation/pincreation.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { IdcreationComponent } from './component/idcreation/idcreation.component
     DashboardComponent,
     SignupComponent,
     OtpComponent,
-    IdcreationComponent
+    IdcreationComponent,
+    PincreationComponent
   ],
   imports: [
     BrowserModule,
