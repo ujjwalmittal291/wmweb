@@ -1,0 +1,115 @@
+.form-container {
+    width: 80%;
+    padding-top: 10%;
+    margin: auto;
+  }
+  
+  .login-image {
+    display: inline;
+  }
+  
+  .login-image img {
+    width: 24%;
+    display: inline-block;
+    left: 13%;
+    position: absolute;
+  }
+  
+  .login-image h1 {
+    font-weight: bold;
+    color: #34aa95;
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .login-form {
+    display: inline-block;
+    width: 30%;
+    padding-top: 3%;
+    position: absolute;
+    right: 5%;
+    margin: auto;
+    margin-top: 2em;
+  }
+  
+  .btn {
+    margin: auto;
+    padding-top: 0.93em;
+    padding-bottom: 0.93em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 75%;
+    min-width: fit-content;
+    opacity: 0.9;
+    margin-bottom: 0.7em;
+    margin-top: 0.7em;
+    font-weight: 600;
+  }
+  
+  .icon {
+    background-color: inherit;
+    color: white;
+    margin-right: 15%;
+  }
+  
+  #login {
+    background-color: #daf1ec;
+    color: #5dbbab;
+  }
+  
+  #signup {
+    background-color: #34aa95;
+    color: white;
+  }
+  
+  p {
+    color: #c3c4c3;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.9em;
+  }
+  
+  #facebook {
+    background-color: #264d9d;
+    color: white;
+    display: inline-block;
+    width: 35%;
+    margin-right: 2.5%;
+  }
+  
+  #google {
+    background-color: #e7270b;
+    color: white;
+    display: inline-block;
+    width: 35%;
+    margin-left: 2.5%;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+@media screen and (max-width : 992px) {
+    .login-image img {
+      width: 70%;
+      position: relative;
+    }
+  
+    div {
+      display: block;
+    }
+  
+    .login-form {
+      display: block;
+      position: relative;
+      width: 70%;
+      right: 0;
+      margin: auto;
+      overflow: visible;
+    }
+  }

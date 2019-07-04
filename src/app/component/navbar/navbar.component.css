@@ -1,0 +1,16 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 5em;
+}
+
+.bg-dark{
+    background-color: #34aa95 !important;
+    color: white;
+}
+
+.navbar-brand{
+    margin-left: 4%;
+}
