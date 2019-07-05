@@ -1,0 +1,44 @@
+.input-group {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1em;
+    background: #eaf4ff;
+}
+
+.input-group-text {
+    background: inherit;
+    border: none;
+}
+
+input {
+    border: none;
+    background: inherit;
+    outline: none;
+}
+
+/* .form-control  */
+.input-group :focus {
+    outline: none;
+    outline-color: inherit;
+    background-color: #eaf4ff;
+}
+
+.btn {
+    display: block;
+    background-color: #20b7f1;
+    color: white;
+    border: #20b7f1;
+    border-radius: 25px;
+    margin: auto;
+    width: 25%;
+    padding: 0.6em;
+}
+i{
+    font-size: 1em;
+}
+
+.search{
+    margin: auto;
+    margin-right: 1em;
+    cursor: pointer;
+}

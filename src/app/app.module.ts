@@ -11,6 +11,7 @@ import { SignupComponent } from './component/signup/signup.component';
 import { OtpComponent } from './component/otp/otp.component';
 import { IdcreationComponent } from './component/idcreation/idcreation.component';
 import { PincreationComponent } from './component/pincreation/pincreation.component';
+import { SimpurchaseComponent } from './component/simpurchase/simpurchase.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PincreationComponent } from './component/pincreation/pincreation.compon
     SignupComponent,
     OtpComponent,
     IdcreationComponent,
-    PincreationComponent
+    PincreationComponent,
+    SimpurchaseComponent
   ],
   imports: [
     BrowserModule,
