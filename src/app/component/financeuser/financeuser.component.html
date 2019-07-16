@@ -1,0 +1,52 @@
+<table mat-table #table [dataSource]="finvalues">
+  <ng-container matColumnDef="column">
+    <th mat-header-cell *matHeaderCellDef> MDN </th>
+    <td mat-cell *matCellDef="let row"> {{finvalues.mdn}} </td>
+  </ng-container>
+  <tr mat-header-row *matHeaderRowDef="['column']"></tr>
+  <tr mat-row *matRowDef="let row; columns: ['column'];"></tr>
+</table>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">MDN</th>
+      <th scope="col">Transaction Id</th>
+      <th scope="col">Date-Time</th>
+      <th scope="col">Payment Method</th>
+      <th scope="col">Payment Status</th>
+      <th scope="col">Amount</th>
+      <th scope="col">Product Type</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let policy of finvalues">
+      <td>{{policy.mdn}}</td>
+      <td>{{policy.id}}</td>
+      <td *ngIf="policy.transaction_date==null">
+        Null</td>
+      <td *ngIf="policy.transaction_date!=null">
+        Null</td>
+      <td>{{policy.payment_method.name}}</td>
+      <td>{{policy.id}}</td>
+      <td>{{policy.amount}}</td>
+      <td>{{policy.payment_method.purchaseType}}</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- 
+<table>
+  <tr *ngFor= "let policy of finvalues">
+      <td>{{policy.mdn}}</td>
+      <td>{{policy.id}}</td>
+      <td *ngIf="policy.transaction_date==null">
+      Null</td>
+      <td *ngIf="policy.transaction_date!=null">
+      Null</td>
+      <td>{{policy.payment_method.name}}</td>
+      <td>{{policy.id}}</td>
+      <td>{{policy.amount}}</td>
+      <td>{{policy.payment_method.purchaseType}}</td>
+  </tr>
+</table> -->
