@@ -10,9 +10,10 @@
             <h1>Welcome! Please Input Your Phone Number</h1>
             <p id="grytxt">Input your current phone number to complete your registration</p>
             <div class="input-container">
-                <input class="input-field" type="text" placeholder="Phone Number">
+                <input class="input-field" id="pno" type="text" placeholder="Phone Number" ng-Model="pnum" >
             </div>
-            <button type="submit" class="btn" routerLink="/otp">Next</button>
+            <!-- <button type="submit" class="btn" routerLink="/otp">Next</button> -->
+            <button type="submit" class="btn" (click)=check(pnum) >Next</button>
         </form>
     </div>
 </div>

@@ -10,6 +10,14 @@ export class SignupComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    let num:any;
   }
+  check:(num:string)=>void = function(num:string):void {
+    // if (isNumber(num)) {
+      console.log(num);
+      // return true;
+    // }
+  }
+  
 
 }
