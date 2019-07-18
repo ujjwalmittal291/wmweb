@@ -12,7 +12,6 @@ import { IdcreationComponent } from './component/idcreation/idcreation.component
 import { PincreationComponent } from './component/pincreation/pincreation.component';
 import { SimpurchaseComponent } from './component/simpurchase-AdminPortal/simpurchase.component';
 import { HttpClientModule } from '@angular/common/http';
-import { DummycomponentComponent } from './dummy/dummycomponent/dummycomponent.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { FinanceUserComponent } from './component/financeuser/financeuser.component';
 import { MatTableModule } from '@angular/material/table';
@@ -30,7 +29,6 @@ import { ReportAdminPortalComponent } from './report-admin-portal/report-admin-p
     IdcreationComponent,
     PincreationComponent,
     SimpurchaseComponent,
-    DummycomponentComponent,
     FinanceUserComponent,
     ReportAdminPortalComponent,
   ],
