@@ -1,31 +1,36 @@
+*{
+  color: white;
+  border: none;
+}
+
 .form-container {
   padding-top: 10%;
   margin: auto;
 }
 
 .login-image h1 {
+  /* font-family: 'Boogaloo', cursive; */
   color: #34aa95;
+  /* width: 90%; */
   text-align: center;
 }
 
 .login-image img {
-  width: 60%;
+  width: 70%;
+  display: block;
   margin: auto;
 }
 
 .login-form {
   display: inline-block;
   padding-top: 3%;
-  margin: auto;
-  margin-left: 7em;
+  margin-left: 10em;
   margin-top: 2em;
 }
 
 .btn {
-  padding-top: 0.93em;
-  padding-bottom: 0.93em;
-  border: none;
-  color: white;
+  padding-top: 0.85em;
+  padding-bottom: 0.85em;
   border-radius: 5px;
   cursor: pointer;
   width: 75%;
@@ -85,8 +90,9 @@ p {
   
   .login-image img {
     width: 60%;
-    left: 25%;
-    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 3em;
   }
 
   div {
@@ -100,7 +106,8 @@ p {
 
   .btn{
     width: 40% !important;
-    margin: 1em !important;
+    margin: 0.8em !important;
+    font-size: 1.1em;
   }
   .icon{
     display: inline;
@@ -111,5 +118,9 @@ p {
     text-align: center;
   }
 
+  h1{
+    font-size: 2em;
+    font-weight: bold; 
+  }
 
 }
