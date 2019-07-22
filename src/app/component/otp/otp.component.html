@@ -1,21 +1,25 @@
 <app-navbar></app-navbar>
 
-<div class="form-container">
-    <div class="login-image">
-        <img src="assets/images/login.png" alt="">
-    </div>
-    <div class="login-form">
-        <form action="/">
-            <p>Step 2 of 4</p>
-            <h1>Input OTP</h1>
-            <p id="grytxt">Input your OTP code that sent to your phone number 9876543210</p>
-            <div class="input-container">
-                <input class="input-field otp" type="password" maxlength="1">
-                <input class="input-field otp" type="password" maxlength="1">
-                <input class="input-field otp" type="password" maxlength="1">
-                <input class="input-field otp" type="password" maxlength="1">
-            </div>
-            <button type="submit" class="btn" routerLink="/idcreation">Next</button>
-        </form>
+<div class="container">
+    <div class="row form-container">
+        <div class="col-sm login-image">
+            <img src="assets/images/login.png" alt="">
+        </div>
+        <div class="col-sm login-form">
+            <form action="/">
+                <p>Step 2 of 4</p>
+                <h1>Input OTP</h1>
+                <p id="grytxt">Input your OTP code that sent to your phone number 9876543210</p>
+                <div class="cont">
+                    <div class="input-container">
+                        <input class="input-field otp" type="password" maxlength="1">
+                        <input class="input-field otp" type="password" maxlength="1">
+                        <input class="input-field otp" type="password" maxlength="1">
+                        <input class="input-field otp" type="password" maxlength="1">
+                    </div>
+                </div>
+                <button type="submit" class="btn" routerLink="/idcreation">Next</button>
+            </form>
+        </div>
     </div>
 </div>
