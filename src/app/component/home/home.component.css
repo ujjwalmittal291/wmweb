@@ -8,16 +8,16 @@
   margin: auto;
 }
 
-.col-sm{
+/* .col-sm{
   margin-right: 2em;
   margin-left: 2em;
-}
+} */
 
 .login-image h1 {
   /* font-family: 'Boogaloo', cursive; */
   color: #34aa95;
   /* width: 90%; */
-  text-align: center;
+  /* text-align: center; */
 }
 
 .login-image img {
@@ -38,15 +38,15 @@
   padding-bottom: 0.85em;
   border-radius: 5px;
   cursor: pointer;
-  width: 75%;
+  width: 80%;
   margin-bottom: 0.7em;
   margin-top: 0.7em;
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 .icon {
   background-color: inherit;
-  margin-right: 15%;
+  margin-right: 0.5em;
 }
 
 #login {
@@ -71,15 +71,15 @@ p {
 #facebook {
   background-color: #264d9d;
   display: inline-block;
-  width: 35%;
-  margin-right: 2.5%;
+  width: 37%;
+  margin-right: 5%;
 }
 
 #google {
   background-color: #e7270b;
   display: inline-block;
-  width: 35%;
-  margin-left: 2.5%;
+  width: 37%;
+  /* margin-left: 2.5%; */
 }
 
 .btn:hover {
