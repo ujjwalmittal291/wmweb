@@ -29,7 +29,7 @@ p {
     margin-bottom: 3.8em;
 }
 
-.cont{
+.cont {
     width: 78.5%;
 }
 
@@ -69,9 +69,14 @@ p {
 
 
 @media screen and (max-width : 992px) {
+    .form-container {
+        margin-top: 0.2em;
+    }
+
     .login-image img {
         width: 70%;
         position: relative;
+        /* margin-bottom: 2em; */
     }
 
     div {
@@ -84,26 +89,25 @@ p {
         width: 100%;
         right: 0;
         margin: auto;
-        /* overflow: visible; */
     }
 
     h1 {
         width: 90%;
         margin: auto;
-        /* margin-top: 1em; */
     }
 
     p {
+        /* margin-top: 11em; */
         width: 90%;
         margin: auto;
         margin-bottom: 1em;
     }
 
-    #grytxt{
+    #grytxt {
         margin-bottom: 1em;
     }
-    
-    .cont{
+
+    .cont {
         width: 54%;
         margin: auto;
     }
