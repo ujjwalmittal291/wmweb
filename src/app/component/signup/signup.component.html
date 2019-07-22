@@ -1,19 +1,21 @@
 <app-navbar></app-navbar>
 
-<div class="form-container">
-    <div class="login-image">
-        <img src="assets/images/login.png" alt="">
-    </div>
-    <div class="login-form">
-        <form action="/">
-            <p>Step 1 of 4</p>
-            <h1>Welcome! Please Input Your Phone Number</h1>
-            <p id="grytxt">Input your current phone number to complete your registration</p>
-            <div class="input-container">
-                <input class="input-field" id="pno" type="text" placeholder="Phone Number" ng-Model="pnum" >
-            </div>
-            <button type="submit" class="btn" routerLink="/otp">Next</button>
-            <!-- <button type="submit" class="btn" (click)=check(pnum) >Next</button> -->
-        </form>
+<div class="container">
+    <div class="row form-container">
+        <div class="col-sm login-image">
+            <img src="assets/images/login.png" alt="">
+        </div>
+        <div class="col-sm login-form">
+            <form action="/">
+                <p>Step 1 of 4</p>
+                <h1>Welcome! Please Input Your Phone Number</h1>
+                <p id="grytxt">Input your current phone number to complete your registration</p>
+                <div class="input-container">
+                    <input class="input-field" id="pno" type="text" placeholder="Phone Number" ng-Model="pnum">
+                </div>
+                <button type="submit" class="btn" routerLink="/otp">Next</button>
+                <!-- <button type="submit" class="btn" (click)=check(pnum) >Next</button> -->
+            </form>
+        </div>
     </div>
 </div>
