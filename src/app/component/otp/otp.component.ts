@@ -12,4 +12,8 @@ export class OtpComponent implements OnInit {
   ngOnInit() {
   }
 
+  next(el) {
+    el.focus();
+  }
+
 }

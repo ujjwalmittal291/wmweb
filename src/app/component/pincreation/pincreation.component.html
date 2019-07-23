@@ -10,14 +10,14 @@
             <h1>Create Your 6 Digits PIN</h1>
             <p id="grytxt">6 Digits PIN is used to login to Windmill????<br>create your uniquePIN to avoid similarity</p>
             <div class="input-container">
-                <input class="input-field otp" type="password" maxlength="1">
-                <input class="input-field otp" type="password" maxlength="1">
-                <input class="input-field otp" type="password" maxlength="1">
-                <input class="input-field otp" type="password" maxlength="1">
-                <input class="input-field otp" type="password" maxlength="1">
-                <input class="input-field otp" type="password" maxlength="1">
+                <input class="input-field otp" #pin1 type="password" maxlength="1" (keyup)="next(pin2)">
+                <input class="input-field otp" #pin2 type="password" maxlength="1" (keyup)="next(pin3)">
+                <input class="input-field otp" #pin3 type="password" maxlength="1" (keyup)="next(pin4)">
+                <input class="input-field otp" #pin4 type="password" maxlength="1" (keyup)="next(pin5)">
+                <input class="input-field otp" #pin5 type="password" maxlength="1" (keyup)="next(pin6)">
+                <input class="input-field otp" #pin6 type="password" maxlength="1" (keyup)="next(bt)">
             </div>
-            <button type="submit" class="btn" routerLink="/dashboard">Next</button>
+            <button type="submit" class="btn" #bt routerLink="/dashboard">Next</button>
         </form>
     </div>
 </div>

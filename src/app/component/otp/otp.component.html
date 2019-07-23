@@ -12,13 +12,13 @@
                 <p id="grytxt">Input your OTP code that sent to your phone number 9876543210</p>
                 <div class="cont">
                     <div class="input-container">
-                        <input class="input-field otp" type="password" maxlength="1">
-                        <input class="input-field otp" type="password" maxlength="1">
-                        <input class="input-field otp" type="password" maxlength="1">
-                        <input class="input-field otp" type="password" maxlength="1">
+                        <input class="input-field otp" #opt1 type="password" maxlength="1" (keyup)="next(otp2)">
+                        <input class="input-field otp" #otp2 type="password" maxlength="1" (keyup)="next(otp3)">
+                        <input class="input-field otp" #otp3 type="password" maxlength="1" (keyup)="next(otp4)">
+                        <input class="input-field otp" #otp4 type="password" maxlength="1" (keyup)="next(bt)">
                     </div>
                 </div>
-                <button type="submit" class="btn" routerLink="/idcreation">Next</button>
+                <button type="submit" class="btn" #bt routerLink="/idcreation">Next</button>
             </form>
         </div>
     </div>

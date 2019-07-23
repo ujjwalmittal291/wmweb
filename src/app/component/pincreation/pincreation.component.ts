@@ -11,5 +11,7 @@ export class PincreationComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  next(el) {
+    el.focus();
+  }
 }
