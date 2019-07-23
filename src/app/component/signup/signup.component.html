@@ -6,12 +6,12 @@
             <img src="assets/images/login.png" alt="">
         </div>
         <div class="col-sm login-form">
-            <form action="/">
+            <form [formGroup]="signupForm1" (ngSubmit)="onSubmit()">
                 <p>Step 1 of 4</p>
                 <h1>Welcome! Please Input Your Phone Number</h1>
                 <p id="grytxt">Input your current phone number to complete your registration</p>
                 <div class="input-container">
-                    <input class="input-field" id="pno" type="text" placeholder="Phone Number" ng-Model="pnum">
+                    <input class="input-field" formControlName="mobile" (ngModel)="mobile" type="text" placeholder="Phone Number">
                 </div>
                 <button type="submit" class="btn" routerLink="/otp">Next</button>
             </form>
